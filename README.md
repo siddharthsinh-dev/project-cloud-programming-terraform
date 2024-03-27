@@ -12,7 +12,7 @@ This project demonstrates how to host a static website using Amazon S3 and Cloud
 
 2. Navigate to the project directory
    ```bash
-   cd project-cloud-programming-terraform
+   cd project
 
 3. Initialise Terraform - 'terraform init'
 

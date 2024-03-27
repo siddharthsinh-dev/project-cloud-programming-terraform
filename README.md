@@ -14,15 +14,15 @@ This project demonstrates how to host a static website using Amazon S3 and Cloud
    ```bash
    cd project
 
-3. Initialise Terraform - 'terraform init'
+3. Initialise Terraform - **'terraform init'**
 
-4. Preview the Execution Plan - 'terraform plan'
+4. Preview the Execution Plan - **'terraform plan'**
 
-5. Apply the Terraform Configuration - 'terraform apply'
+5. Apply the Terraform Configuration - **'terraform apply'**
 
 6. Type 'yes' when prompted to confirm the deployment.
 
 7. Once, the deployment is complete, you can access the static website through CloudFront distribution URL in the AWS Console. 
 
-
+8. After Viewing the Website, run '**terraform destroy**' to avoid incurring any additional costs of AWS resources usage.
 

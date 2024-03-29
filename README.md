@@ -53,7 +53,11 @@ terraform apply
 
 4. Type **'yes'** when prompted to confirm the deployment.
 
-5. Once, the deployment is complete, you can access the static website through **CloudFront distribution URL** in your AWS Console.
+5. Once, the deployment is complete, you can access the static website by visiting your AWS Console:
+* Navigate to the CloudFront Service
+* Open the newly created CloudFront distribution
+* Access the website through the **Distribution domain name** with .cloudfront.net extension listed in your AWS Console.
+
 
 ## Cleaning Up
 

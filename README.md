@@ -1,44 +1,68 @@
-# GITHUB LINK TO THIS PROJECT
+## GITHUB LINK TO THIS PROJECT
 https://github.com/siddharthsinh-dev/project-cloud-programming-terraform
 
-## Static Website Hosting with Amazon S3 and CloudFront using Terraform
+# Static Website Hosting with Amazon S3 and CloudFront using Terraform
 
 This project demonstrates how to host a static website using Amazon S3 and CloudFront with Terraform.
 
-### Steps to Deploy
+This documentation provides step-by-step instructions on how to deploy a static website using Amazon S3 and CloudFront with Terraform.
 
-1. **Clone the repository**:
+**Prerequisites**
+
+Before you begin, ensure you have the following:
+
+* An AWS account with appropriate permissions to create S3 buckets, CloudFront distributions and IAM Roles.
+* AWS CLI installed on your system and ensure that you have configured your AWS credentials either by exporting them as environment variables or by using AWS CLI (**'aws configure**') before running Terraform commands.
+* Terraform installed on your system.
+
+**Cloning the Repository**
+
+1. **Open your terminal or command prompt:**
+* **Mac/Linux:** Open the terminal application
+* **Windows:** Open Command Prompt or PowerShell
+
+2. **Navigate to your desired directory:**
+```bash
+cd 'directory name'
+```
+Replace the **'directory name'** with the name of the directory where you want to clone the GitHub repository.
+
+3. **Clone the repository**:
 ```bash
 git clone https://github.com/siddharthsinh-dev/project-cloud-programming-terraform.git
 ```
 
-2. **Navigate to the project directory**
+4. **Navigate to the project directory**
 ```bash
-cd project
+cd project-cloud-programming-terraform
 ```
 
-3. **Initialize Terraform**
+## Deploying the Static Website
+
+1. **Initialize Terraform**
 ```bash
 terraform init
 ```
 
-4. **Preview the Execution Plan**
+2. **Preview the Execution Plan**
 ```bash
 terraform plan
 ```
 
-5. **Apply the Terraform Configuration**
+3. **Apply the Terraform Configuration**
 ```bash
 terraform apply
 ```
 
-6. Type **'yes'** when prompted to confirm the deployment.
+4. Type **'yes'** when prompted to confirm the deployment.
 
-7. Once, the deployment is complete, you can access the static website through **CloudFront distribution URL** in your AWS Console. 
+5. Once, the deployment is complete, you can access the static website through **CloudFront distribution URL** in your AWS Console.
 
-8. After Viewing the Website, run:
+## Cleaning Up
+
+1. After Viewing the Website, run:
 ```bash
 terraform destroy
 ```
-to avoid incurring any additional costs of AWS resources usage.
+This will remove all resources created by Terraform and avoid incurring additional costs from AWS resource usage.
 

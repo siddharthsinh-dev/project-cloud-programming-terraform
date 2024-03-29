@@ -51,6 +51,8 @@ terraform plan
 terraform apply
 ```
 
+**Note** : Deploying time may take up to **5 minutes approximately**.
+
 4. Type **'yes'** when prompted to confirm the deployment.
 
 5. Once, the deployment is complete, you can access the static website by visiting your AWS Console:

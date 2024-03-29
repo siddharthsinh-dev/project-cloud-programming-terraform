@@ -2,9 +2,6 @@
 https://github.com/siddharthsinh-dev/project-cloud-programming-terraform
 
 # Static Website Hosting with Amazon S3 and CloudFront using Terraform
-
-This project demonstrates how to host a static website using Amazon S3 and CloudFront with Terraform.
-
 This documentation provides step-by-step instructions on how to deploy a static website using Amazon S3 and CloudFront with Terraform.
 
 **Prerequisites**
